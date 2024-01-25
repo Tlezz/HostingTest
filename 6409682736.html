@@ -1,0 +1,56 @@
+<!--Tanawin Luanpurk-->
+<!--6409682736-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanawin 6409682736</title>
+    <style>
+        figure {
+        border: thin #c0c0c0 solid;
+        display: flex;
+        flex-flow: column;
+        padding: 5px;
+        max-width: 220px;
+        margin: auto;
+      }
+      
+      img {
+        max-width: 220px;
+        max-height: 150px;
+      }
+      
+      figcaption {
+        background-color: #222;
+        color: #fff;
+        font: italic smaller sans-serif;
+        padding: 3px;
+        text-align: center;
+      }</style>
+</head>
+<body>
+    <h1>ศึกษา HTML Elements ที่ไม่เคยใช้</h1>
+    <!--Tag <iframe> ใช้เพื่อแสดงเนื้อหาจาก browser ตัวอย่างเช่น map-->
+    <iframe
+        id="inlineFrameExample"
+        title="Inline Frame Example"
+        width="300"
+        height="200"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+    </iframe>
+    <br><br><br>
+    <!--Tag <meter> สามารถใช้เพื่อแสดงผลรูปแบบของหลอด กำหนดอัตราส่วนได้-->
+    <label for="fuel">ค่าความดี:</label>
+    <meter id="fuel" min="0" max="100" low="33" high="66" optimum="80" value="20">at 50/100</meter>
+    <br><br><br>
+    <!--Tag <ruby> สามารถใช้เพิ่มคำอธิบายขนาดเล็กที่ด้านบน ล่าง หรือด้านข้างของข้อความได้-->
+    <ruby> 漢 <rp>(</rp><rt>kan</rt><rp>)</rp> 字 <rp>(</rp><rt>ji</rt><rp>)</rp> </ruby>
+    <br><br><br>
+    <!--Tag <figure> เป็นtagที่รวมหลาย element ให้อยู่ด้วยกันเช่น รูปภาพ และข้อความ สามารถใช้ <figcaption> เพิ่มข้อความให้รูปได้-->
+    <figure>
+        <img src="https://s.isanook.com/wo/0/ud/46/231281/a.jpg?ip/crop/w670h402/q80/jpg" alt="Elephant at sunset" />
+        <figcaption>แมวน่ารัก</figcaption>
+    </figure>
+</body>
+</html>
